@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - TaskFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to your Dashboard</h1>
+
+  <h2>Create Task</h2>
+  <form id="task-form">
+    <input type="text" id="task-name" placeholder="Task Name" required>
+    <textarea id="task-desc" placeholder="Task Description"></textarea>
+    <input type="date" id="task-date">
+    <button type="submit">Create Task</button>
+  </form>
+
+  <h2>Your Tasks</h2>
+  <div id="tasks-list"></div>
+
+  <button id="logout-btn">Logout</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
